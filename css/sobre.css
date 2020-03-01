@@ -1,0 +1,128 @@
+body{
+    color: #333333;
+    font-family: 'Lucida Grande','Lucida Sans Unicode',sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+
+
+    /*border-color: red;
+    border-style: solid;
+    border-width: 1px;*/
+
+   /*<<<<< outra forma de fazer abaixo >>>>>>> 
+   border: 1px solid red;*/
+}
+
+h1 {
+    background-image: url("/home/ismailson/Área de Trabalho/CaelumApostila/mirrorfashion/img/sobre-background.jpg");
+    padding: 10px;
+
+}
+
+h2 {
+    border-bottom: 2px solid #333333;   
+    margin-top: 30px; 
+}
+
+p {
+    padding: 0 30px;
+    text-indent: 15px;
+}
+
+
+/*<<<<<<<<<<MENU DO SITE >>>>>>>>>>>*/
+header {
+    position: relative;
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola {
+    background-image: url("/home/ismailson/Área de Trabalho/CaelumApostila/mirrorfashion/img/sacola.png"); /*Imagem da sacola*/
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+ }
+
+ /*Alinhamento sacola a direita*/
+ .sacola{
+     padding-top: 8px;
+ }
+
+ .sacola {
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+
+/*Alinhamento menu a direita*/
+ .menu-opcoes{
+     position: absolute;
+     bottom: 0;
+     right: 0;
+ }
+.menu-opcoes ul {
+    font-size: 15px;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.menu-opcoes a {
+    color: #003366;
+}
+
+
+/*Imagem centro de sitribuição*/
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/*Familia Pelho foto*/
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+/*{
+    text-align: center;
+    line-height: 3px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-indent: 30px;
+    }*/
+
+/*Rodape da pagina*/
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
