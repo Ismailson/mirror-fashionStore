@@ -14,7 +14,7 @@ header {
 }
 
 .sacola {
-    background-image: url("/home/ismailson/Área de Trabalho/CaelumApostila/mirrorfashion/img/sacola.png"); /*Imagem da sacola*/
+    background-image: url("/home/ismailson/mirrorfashion/img/sacola.png"); /*Imagem da sacola*/
     background-repeat: no-repeat;
     background-position: top right;
 
@@ -150,9 +150,57 @@ header {
     text-decoration: none;
 }
 
+/*footer*/
 
+footer{
+    background-image:url("/home/ismailson/mirrorfashion/img/fundo-rodape.png");
+}
 
+footer {
+    clear: both;
+}
+footer{
+    padding: 20px 0;
+}
 
+footer .container{
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social a {
+    /*tamanho da imagem*/
+    width: 32px;
+    height: 32px;
+
+    /* image-replacement */
+    display: block;
+    text-indent: -9999px;
+}
+
+/*Adicionando icones redes sociais */
+.social a[href*="facebook.com"]{
+    background-image: url("/home/ismailson/mirrorfashion/img/facebook.png");
+}
+
+.social a[href*="twitter.com"]{
+    background-image: url("/home/ismailson/mirrorfashion/img/twitter.png");
+}
+
+.social a[href*="instagram.com"]{
+    background-image: url("/home/ismailson/mirrorfashion/img/Active-Instagram-3-icon.png");
+}
+
+/*Alinhado Incone social*/
+.social li {
+    float: left;
+    margin-left: 25px;
+}
 
 
 

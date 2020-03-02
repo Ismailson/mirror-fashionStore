@@ -15,7 +15,7 @@ body{
 }
 
 h1 {
-    background-image: url("/home/ismailson/Área de Trabalho/CaelumApostila/mirrorfashion/img/sobre-background.jpg");
+    background-image: url("/home/ismailson/mirrorfashion/img/sobre-background.jpg");
     padding: 10px;
 
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .sacola {
-    background-image: url("/home/ismailson/Área de Trabalho/CaelumApostila/mirrorfashion/img/sacola.png"); /*Imagem da sacola*/
+    background-image: url("/home/ismailson/mirrorfashion/img/sacola.png"); /*Imagem da sacola*/
     background-repeat: no-repeat;
     background-position: top right;
 
