@@ -154,17 +154,28 @@ header {
 
 footer{
     background-image:url("/home/ismailson/mirrorfashion/img/fundo-rodape.png");
+    
+    
+    
 }
-
+.container-footer{
+    margin: 0 auto;
+    width: 940px;
+}
+.container-footer{
+    position: relative;
+}
 footer {
     clear: both;
 }
 footer{
     padding: 20px 0;
+    
 }
 
 footer .container{
     position: relative;
+
 }
 
 .social{
