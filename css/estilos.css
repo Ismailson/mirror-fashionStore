@@ -57,6 +57,8 @@ header {
 
 /*<<<<<<<<<<<<< MENU DEPARTAMENTO >>>>>>>>>>>>>>>>>>>>*/
 
+
+/*Btn - pesquisa*/
 .busca,
 .menu-departamento {
     background-color: #dcdcdc;
@@ -64,6 +66,19 @@ header {
     text-transform: uppercase;
     margin-right: 10px;
     width: 230px;
+}
+
+.busca button{
+    background-image: url("/home/ismailson/mirrorfashion/img/busca.png");
+    background-repeat: no-repeat;
+    border: none;
+
+    /*tamanho da imagen*/
+    width: 25px;
+    height: 25px;
+
+    /*imagem replacement*/
+    text-indent: -9999px;
 }
 
 .busca h2,

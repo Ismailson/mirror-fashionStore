@@ -3,8 +3,7 @@ body{
     font-family: 'Lucida Grande','Lucida Sans Unicode',sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 940px;
-
+   
 
     /*border-color: red;
     border-style: solid;
@@ -114,15 +113,57 @@ figcaption {
     }*/
 
 /*Rodape da pagina*/
-
-#rodape {
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
+footer{
+    background-image:url("/home/ismailson/mirrorfashion/img/fundo-rodape.png");
+    height: 50px;
+    
+    
+    
+}
+.container-footer{
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
 }
 
-#rodape img {
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
+   
+footer{
+    padding: 20px 0;
+    clear: both;
+    
+}
+
+.social{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.social a {
+    /*tamanho da imagem*/
+    width: 32px;
+    height: 32px;
+
+    /* image-replacement */
+    display: block;
+    text-indent: -9999px;
+}
+
+/*Adicionando icones redes sociais */
+.social a[href*="facebook.com"]{
+    background-image: url("/home/ismailson/mirrorfashion/img/facebook.png");
+}
+
+.social a[href*="twitter.com"]{
+    background-image: url("/home/ismailson/mirrorfashion/img/twitter.png");
+}
+
+.social a[href*="instagram.com"]{
+    background-image: url("/home/ismailson/mirrorfashion/img/Active-Instagram-3-icon.png");
+}
+
+/*Alinhado Incone social*/
+.social li {
+    float: left;
+    margin-left: 25px;
 }
