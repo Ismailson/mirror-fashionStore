@@ -14,7 +14,7 @@ header {
 }
 
 .sacola {
-    background-image: url("/home/ismailson/mirrorfashion/img/sacola.png"); /*Imagem da sacola*/
+    background-image: url("C:/Users/ismai/mirror-fashionStore/img/sacola.png"); /*Imagem da sacola*/
     background-repeat: no-repeat;
     background-position: top right;
 
@@ -79,7 +79,7 @@ header {
 
 
 .busca button{
-    background-image: url("/home/ismailson/mirrorfashion/img/busca.png");
+    background-image: url("C:/Users/ismai/mirror-fashionStore/img/busca.png");
     background-repeat: no-repeat;
     border: none;
 
@@ -206,7 +206,7 @@ header {
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 footer{
-    background-image:url("/home/ismailson/mirrorfashion/img/fundo-rodape.png");
+    background-image:url("C:/Users/ismai/mirror-fashionStore/img/fundo-rodape.png");
     
     
     
@@ -254,15 +254,15 @@ footer .container{
 
 /*Adicionando icones redes sociais */
 .social a[href*="facebook.com"]{
-    background-image: url("/home/ismailson/mirrorfashion/img/facebook.png");
+    background-image: url("C:/Users/ismai/mirror-fashionStore/img/facebook.png");
 }
 
 .social a[href*="twitter.com"]{
-    background-image: url("/home/ismailson/mirrorfashion/img/twitter.png");
+    background-image: url("C:/Users/ismai/mirror-fashionStore/img/twitter.png");
 }
 
 .social a[href*="instagram.com"]{
-    background-image: url("/home/ismailson/mirrorfashion/img/Active-Instagram-3-icon.png");
+    background-image: url("C:/Users/ismai/mirror-fashionStore/img/Active-Instagram-3-icon.png");
 }
 
 /*Alinhado Incone social*/
